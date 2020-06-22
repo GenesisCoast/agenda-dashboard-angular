@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+
+// version 4
+@import 'variables';
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+// Import app.component.scss
+@import 'src/app/app.component.scss';
+
+// Import dashboard.component.scss
+@import './app/dashboard/dashboard.component.scss';
+
+// Import settings.component.scss
+@import './app/settings/settings.component.scss';
+
+// Import settings navigation.component.scss
+@import './app/settings/navigation/navigation.component.scss';
+
+// Import data input component
+@import './app/settings/input/input.component.scss';
+
+// Import data review component
+@import './app/settings/output/output.component.scss';
